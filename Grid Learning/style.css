@@ -1,0 +1,29 @@
+.container {
+  background-color: rgb(159, 81, 123);
+  display: grid;
+  height: 60vh;
+  width: 60vw;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.item {
+  background-color: rgb(72, 141, 72);
+}
+
+.header {
+  background-color: rgb(86, 104, 163);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 50px;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(62, 163, 163);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 50px;
+  text-align: center;
+}
